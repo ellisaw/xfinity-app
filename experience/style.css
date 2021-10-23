@@ -187,6 +187,7 @@
 
 /* Photos for elements */
 #work-1 {
+  background-image: url("./assets/intern.png");
   background-size: cover;
 }
 #work-2 {
