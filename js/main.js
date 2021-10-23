@@ -3,7 +3,29 @@ var sectionNames = ['work', 'stack', 'skill'];
 // When window loads, place arrows and hide element descriptions
 window.onload = function() {
   for (let i = 0; i < sectionNames.length; i++) {
-    loadArrows(sectionNames[i]);
+    var container = document.getElementById(sectionNames[i] + '-container');
+    var leftSlider = document.getElementById(sectionNames[i] + '-left');
+    var rightSlider = document.getElementById(sectionNames[i] + '-right');
+
+    // Scroll distance
+    leftSlider.addEventListener("click", function() {
+      container.scrollLeft -= 200;
+    });
+    rightSlider.addEventListener("click", function() {
+      container.scrollLeft += 200;
+    });
+
+    // True if overflow is found and container is scrollable
+    var canScroll = container.scrollWidth > container.offsetWidth;
+
+    // Hide arrows when container isn't scrollable
+    if (!canScroll) {
+      leftSlider.style.display ="none";
+      rightSlider.style.display = "none";
+    } else {
+      leftSlider.style.display = "table-cell";
+      rightSlider.style.display = "table-cell";
+    }
     loadDescriptions(sectionNames[i]);
   }
 };
