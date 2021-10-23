@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Resume Web App</title>
+
+  <!-- Import CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="experience/style.css">
+  <link rel="stylesheet" href="about/style.css">
+
+  <!-- Import Javascript -->
+  <script src="js/main.js" type="text/javascript"></script>
+  <script src="js/sliders.js" type="text/javascript"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+  <!-- Page 1 / Experience Page -->
+  <div class="page" id="page1">
+    <!-- Header -->
+    <header>
+      <h2>ellis <span>stream</span></h2>
+      <h1>Passionate, creative entry-level developer</h1>
+      <p>Stream top picks for front end experience and skills.<br>All included with your Ellis Wright Stream service. Enjoy!</p>
+
+      <a href="about.html"><button>About Me</button></a>
+    </header>
+
+
+
+    <!-- Work experience-->
+    <section class="row">
+      <!-- Section title -->
+      <h3 class="container-padding">Work Experience</h3>
+      <!-- Slider content -->
+      <div class="slider" id="work">
+        <!-- Left slider arrow -->
+        <div class="arrow landscape-arrow left-arrow" id="work-left">
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <!-- Right slider arrow -->
+        <div class="arrow landscape-arrow right-arrow" id="work-right">
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <!-- Sliding content displayed in table -->
+        <table class="container-padding">
+          <tr>
+            <td>
+              <ul class="landscape scroll-list" id ="work-container">
+                <li id="work-1">
+                  <article></article>
+                </li>
+                <li id="work-2">
+                  <article></article>
+                </li>
+                <li id="work-3">
+                  <article></article>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Slider content info-->
+      <section class="info" id="work-info">
+        <article id="work-1-info">
+          <h3>Web Development Intern</h3>
+          <h4>Hopeworks</h4>
+          <p>On a quest to generate revenue for Hopeworks, the Web Development Team takes on the challenge of building websites for clients using Elementor and WordPress. Watch <i>Ellis Wright</i> break into her career as a Web Developer, troubleshooting WordPress limitations using custom CSS and rendering pixel-perfect page builds from Figma files.</p>
+          <p><b>Special Achievements: </b>Selected for Google IT with Python Scholarship to further technical education.</p>
+        </article>
+        <article id="work-2-info">
+          <h3>Internship Trainee</h3>
+          <h4>Hopeworks</h4>
+          <p>After graduating from the University of Pennsylvania, <i>Ellis Wright</i> is on the hunt for a job that will help her break into her career. One problem: how can she beat the "Entry Level: 5 Years of Experience Required" job search loop? Enter Hopeworks: a workforce development program offering training in HTML, CSS, Javascript, WordPress, Geographic Information Systems, and more. This feel-good adventure will leave you rooting for the protagonist and her success. </p>
+          <p><b>Special Achievements: </b>Trainee of the Week (2x), Selected to interview Hopeworks staff candidates and weigh in on selection process.</p>
+        </article>
+        <article id="work-3-info">
+          <h3>Freelance Graphic Designer</h3>
+          <h4>Self-Employed</h4>
+          <p>Having taught herself how to use Photoshop in middle school, <i>Ellis Wright</i> knew she had a knack for design. After jumpstarting a website for her sorority chapter in college, friends, family, and colleagues sought out her logo and web design expertise to give a voice to their brands and small businesses. </p>
+        </article>
+      </section>
+    </section>
+
+    <!-- Tech skills / stack-->
+    <section class="row">
+
+      <!-- Section title -->
+      <h3 class="container-padding">Tech Stack</h3>
+      <!-- Slider content -->
+      <div class="slider" id="stack">
+        <!-- Left slider arrow -->
+        <div class="arrow landscape-arrow left-arrow" id="stack-left">
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <!-- Right slider arrow -->
+        <div class="arrow landscape-arrow right-arrow" id="stack-right">
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <!-- Sliding content displayed in table -->
+        <table class="container-padding">
+          <tr>
+            <td>
+              <ul class="landscape scroll-list" id ="stack-container">
+                <!-- HTML -->
+                <li id="stack-1">
+                  <article></article>
+                </li>
+                <!-- CSS -->
+                <li id="stack-2">
+                  <article></article>
+                </li>
+                <!-- Javascript -->
+                <li id="stack-3">
+                  <article></article>
+                </li>
+                <!-- Bootstrap -->
+                <li id="stack-4">
+                  <article></article>
+                </li>
+                <!-- Java -->
+                <li id="stack-5">
+                  <article></article>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- tech stack information -->
+      <section class="info" id="stack-info">
+        <article id="stack-1-info">
+          <h3>HTML</h3>
+          <p><img src="experience/assets/rotten-tomatoes.png" alt="Rotten Tomatoes Popcorn Icon" width="15"> 85%</p>
+          <p>Very comfortable xyz</p>
+        </article>
+        <article id="stack-2-info">
+          <h3>CSS</h3>
+          <p><img src="experience/assets/rotten-tomatoes.png" alt="Rotten Tomatoes Popcorn Icon" width="15"> 85%</p>
+          <p>Very comfortable xyz</p>
+        </article>
+        <article id="stack-3-info">
+          <h3>Javascript</h3>
+          <p><img src="experience/assets/rotten-tomatoes.png" alt="Rotten Tomatoes Popcorn Icon" width="15"> 50%</p>
+          <p>Fun fact: this site is my first Javascript project! From learning Java, I had a foundation in object-oriented programming that gave me a head start. StackOverflow and W3Schools filled in the blanks.</p>
+        </article>
+        <article id="stack-4-info">
+          <h3>Bootstrap</h3>
+          <p><img src="experience/assets/rotten-tomatoes.png" alt="Rotten Tomatoes Popcorn Icon" width="15"> 40%</p>
+          <p>The first website I built from scratch was done using Bootstrap. I have a lot to learn, but I take pride in having constructed responsive page layouts and navigation from just following the official Bootstrap documentation and tutorials on W3Schools. </p>
+        </article>
+        <article id="stack-5-info">
+          <h3>Java</h3>
+          <p><img src="experience/assets/rotten-tomatoes.png" alt="Rotten Tomatoes Popcorn Icon" width="15"> 60%</p>
+          <p>I learned Java the most formally, through coursework at Penn. As an undergrad, I took on some really cool and challenging projects such as a GUI Video Game application based off the game "Just Get 10". I haven't used Java in a while, but I use what I learned about this language and object-oriented programming in general to learn new languages quickly.</p>
+        </article>
+      </section>
+    </section>
+
+    <!-- Soft Skills -->
+    <section class="row">
+      <!-- Section title -->
+      <h3 class="container-padding">Soft Skills</h3>
+      <!-- Slider content -->
+      <div class="slider" id="skill">
+        <!-- Left slider arrow -->
+        <div class="arrow portrait-arrow left-arrow" id="skill-left">
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <!-- Right slider arrow -->
+        <div class="arrow portrait-arrow right-arrow" id="skill-right">
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <!-- Sliding content displayed in table -->
+        <table class="container-padding">
+          <tr>
+            <td>
+              <ul class="portrait scroll-list" id ="skill-container">
+                <li id="skill-1">
+                  <article>
+                  </article>
+                </li>
+                <li id="skill-2">
+                  <article>
+                  </article>
+                </li>
+                <li id="skill-3">
+                  <article>
+                  </article>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Slider content info-->
+      <section class="info" id="skill-info">
+        <article id="skill-1-info">
+          <h3>Lorem Ipsum</h3>
+        </article>
+        <article id="skill-2-info">
+          <h3>Lorem Ipsum</h3>
+        </article>
+        <article id="skill-3-info">
+          <h3>Lorem Ipsum</h3>
+        </article>
+      </section>
+    </section>
+
+  </div>
+
+</body>
+</html>

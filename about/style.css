@@ -1,0 +1,145 @@
+/* General styling*/
+a {
+  color: white;
+}
+/* Header styling */
+#page2 header {
+  padding: 15px;
+  text-align: center;
+}
+#page2 header h2 {
+  font-size: 34px;
+}
+
+/* Responsive general & header styling */
+@media only screen and (max-width: 767px) {
+  #page2 header {
+    padding: 5px;
+  }
+}
+
+/* Intro block Styling */
+#about-intro {
+  padding: 275px 200px 50px 60px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(25, 25, 25, 0), rgba(0, 0, 0, 0.7), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 1)), url("assets/main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#about-intro h3 {
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+#about-intro h4 {
+  font-size: 18px;
+  color: #b5b5b5;
+  margin-bottom: 5px;
+}
+#about-intro button {
+  border: none;
+  margin-top: 25px;
+  background-color: #e0e0e0;
+  color: #black;
+  font-size: 20px;
+  padding: 18px 50px 18px 50px;
+  border-radius: 3px;
+  -webkit-transition: 0.3x;
+}
+#about-intro p {
+
+}
+#about-intro button:hover {
+  background-color: white;
+  transition-duration: 0.3s;
+}
+/* Back Button */
+#back-button {
+  background-color: #303030;
+  position: absolute;
+  top: 105px;
+  left: 60px;
+  padding: 10px 12px 10px 12px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 100;
+  -webkit-transition: 0.3s;
+}
+
+#back-button:hover {
+  background-color: #474747;
+  transition-duration: 0.3s;
+}
+/* Intro content tablet styling */
+@media only screen and (max-width: 1024px) {
+}
+/* Intro content mobile styling */
+@media only screen and (max-width: 767px) {
+  #about-intro {
+    padding: 200px 30px 75px 30px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(25, 25, 25, 0), rgba(25, 25, 25, 1), rgba(25, 25, 25, 1), rgba(25, 25, 25, 1), rgba(25, 25, 25, 1)), url("assets/main.png");
+    background-position: right
+  }
+  #about-intro h3 {
+    font-size: 24px;
+  }
+  #about-intro h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  #about-intro p {
+    font-size: 14px;
+  }
+  #about-intro button {
+    width: 100%;
+  }
+  #back-button {
+    top: 85px;
+    left: 30px;
+  }
+}
+
+/* Related bar */
+#related-bar {
+  position: relative;
+  margin: 25px 60px 0px 60px;
+  border-bottom: 4px solid #303030;
+}
+h5 {
+  font-weight: 400;
+  font-size: 20px;
+}
+#related-text {
+  display: inline-block;
+  position: absolute;
+  top: -40px;
+  padding: 5px;
+  border-bottom: 4px solid #2596be;
+}
+
+/* Additional content */
+#about-content {
+  padding: 25px 200px 100px 60px;
+}
+/* People also read */
+#about-content span {
+  font-size: 22px;
+}
+#about-content p {
+  font-size: 14px;
+  margin-top: 25px;
+}
+/* Additional content tablet styling */
+@media only screen and (max-width: 1024px) {
+}
+/* Additional content mobile styling */
+@media only screen and (max-width: 767px) {
+  #related-bar {
+    margin: 0px 30px 0px 30px;
+  }
+  #about-content {
+    padding: 30px 30px 100px 30px;
+  }
+  #about-content span {
+    font-size: 18px;
+  }
+}

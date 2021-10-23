@@ -1,0 +1,3 @@
+function moveAbsoluteTable(child, parent) {
+
+}
