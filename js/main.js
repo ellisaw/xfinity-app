@@ -27,10 +27,10 @@ function loadArrows(section) {
 
   // Scroll distance
   leftSlider.addEventListener("click", function() {
-    container.scrollLeft -= 200;
+    container.scrollLeft -= 300;
   });
   rightSlider.addEventListener("click", function() {
-    container.scrollLeft += 200;
+    container.scrollLeft += 300;
   });
 
   // True if overflow is found and container is scrollable
